@@ -1,0 +1,19 @@
+name: yarn
+version: 0.1.0
+summary: yarn step
+tags:
+- yarn
+- javascript
+- node
+properties:
+- name: command
+  type: string
+  default: install
+  required: false
+- name: use-cache
+  type: bool
+  default: false
+  required: false
+- name: options
+  type: string
+  required: false
